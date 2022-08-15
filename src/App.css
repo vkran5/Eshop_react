@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+}
+/* Navbar */
+.navbar{
+  position: absolute;
+  z-index: 5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.background{
+  background-image: url("https://images.wallpaperscraft.com/image/single/living_room_furniture_eg_blue_tone_wallpaper_80113_1920x1080.jpg");
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Reg Page */
+#register-form{
+  margin-top: 12px;
+}
+
+/* Landing Page */
+#carousel {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+}
+
+
+.carousel-item > img {
+  opacity: 50%;
+}
+
+/* Product  */
+.product-img{
+  width: 500px;
+  height: 500px;
+}
+
+.menu-drop{
+  position: relative;
+  left: 30px;
+}
+
+#product-desc {
+  position: relative;
+  left: 35px;
+  bottom: 30px;
+  z-index: 5;
+  width: 200px;
+  height: 80px;
+}
+
+#product-catalog:hover{
+  cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: 900px) {
+  #carousel{
+    position: absolute;
+    top: 15%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
+
+/* #carouselExampleDark {
+  position: absolute;
+  top: 400px;
+  left: 850px;
+  
+} */
+
+
+
+
